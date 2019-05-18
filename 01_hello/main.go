@@ -2,6 +2,10 @@ package main
 
 import "fmt"
 
+func log(text ...string) {
+	fmt.Println(text[0])
+}
+
 func main() {
-	fmt.Println("Hello world")
+	log("Hello world")
 }
